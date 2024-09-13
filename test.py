@@ -41,7 +41,7 @@ def main():
         features_list = df.values.tolist()      
         prediction = model(features_list)
     
-        output = int(prediction[0])
+        output = int(prediction)
         if output == 1:
             text = ">50K"
         else:
