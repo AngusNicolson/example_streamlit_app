@@ -39,7 +39,7 @@ def main():
         category_col =['workclass', 'education', 'maritalstatus', 'occupation', 'relationship', 'race', 'gender', 'nativecountry']
             
         features_list = df.values.tolist()      
-        prediction = model.predict(features_list)
+        prediction = model(features_list)
     
         output = int(prediction[0])
         if output == 1:
