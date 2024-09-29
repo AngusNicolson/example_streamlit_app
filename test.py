@@ -1,7 +1,9 @@
 import numpy as np
 import pandas as pd
 import streamlit as st 
-import pickle
+import joblib
+# If streamlit doesn't have a package by default, you will need to create a requirements.txt file in your github and add the package name to it. 
+# See the requirements.txt file in this github repository for an example.
 
 # 3. Replace this with code to load our model! 
 # hint: use joblib
