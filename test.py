@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st 
 import joblib
+import features
 # If streamlit doesn't have a package by default, you will need to create a requirements.txt file in your github and add the package name to it. 
 # See the requirements.txt file in this github repository for an example.
 
